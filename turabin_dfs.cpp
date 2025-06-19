@@ -28,6 +28,7 @@ int main() {
     char again = 'y';
     while (again == 'y' || again == 'Y') {
         int n;
+        cout << "Welcome to DFS Graph" << endl;
         cout << "Enter number of vertices: ";
         if (!(cin >> n) || n <= 0) {
             cout << "Invalid number of vertices. Please try again.\n";
